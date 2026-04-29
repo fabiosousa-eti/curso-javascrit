@@ -1,0 +1,30 @@
+# Comandos javaScript
+
+## window - representa uma janela que contém um elemento DOM.
+## typeof - Mostra o tipo de comando.
+
+## alert - Exibe uma caixa de diálogo com uma mensagem.
+> window.alert('Minha primara mensagem')
+
+## confirm -  em JavaScript é um método do objeto window que exibe uma caixa de diálogo modal um popup com uma mensagem opcional, junto com dois botões: "OK" e "Cancelar".
+> window.confirm('Esta gostando do JS')
+
+## prompt - é uma função nativa do navegador que exibe uma caixa de diálogo com uma mensagem opcional, solicitando que o usuário insira um texto
+> window.prompt('Qual é seu nome?')
+
+## function - define blocos de código reutilizáveis que realizam tarefas específicas, permitindo estruturar, organizar e evitar a repetição de código
+> funcion(){bloco de codigo}
+
+## Tipos de Variaveis
+> var - declara variáveis com escopo de função ou global, permitindo redeclaração e atualização
+> let
+
+> number - Converte o valor para número. Retorna NaN (Not-a-Number) se a conversão falhar.
+> infinity - é uma propriedade global que representa o infinito matemático, um valor numérico maior que qualquer outro número
+> NaN (Not-a-Number) - epresenta um valor numérico indefinido ou impossível de representar, 
+> string - são sequências de caracteres usadas para texto, definidas por aspas simples ('), duplas (") ou crases (`)
+> boolean - representa um valor lógico: true (verdadeiro) ou false (falso),
+> null - é um valor primitivo que representa a ausência intencional de qualquer valor de objeto.
+> undefined - é um tipo primitivo que indica que uma variável foi declarada, mas ainda não recebeu um valor, ou que uma função não retornou nada
+> object - é um construtor global usado para criar objetos ou manipular objetos existentes
+> array - são listas ordenadas de objetos, permitindo armazenar múltiplos valores (inclusive tipos diferentes) em uma única variável, indexados a partir de zero.

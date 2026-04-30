@@ -28,3 +28,32 @@
 > undefined - é um tipo primitivo que indica que uma variável foi declarada, mas ainda não recebeu um valor, ou que uma função não retornou nada
 > object - é um construtor global usado para criar objetos ou manipular objetos existentes
 > array - são listas ordenadas de objetos, permitindo armazenar múltiplos valores (inclusive tipos diferentes) em uma única variável, indexados a partir de zero.
+
+## Tipo de conversão Numero
+# Number(N) - Converter string para Numero (Inteiro e Flutuante)
+> Number(window.prompt('Número: '))
+
+# Number.parseInt(N) - Força conversão string para Numero Inteiro
+> Number.parseInt(window.prompt('Número: '))
+
+# Number.parseFloat(N) - Força conversão string para Numero Flutuante
+> Number.parseFloat(window.prompt('Número: '))
+
+## Tipo de conversão String
+# toString(N)
+> window.alert(toString(ns))
+
+## Formatando String
+# s.length -  quantos caracteres a string tem
+# s.toUpperCase - Tudo para MAIÚSCULAS
+# s.toLowerCase - Tudo para minúsculas
+
+## Formatando Numeros
+# toFixed(2) - colocar casas decimais
+> n1.tofixed(2): 154.10
+
+# tofixed(2).replace('.',',') - Muda o ponto por virgula da casa decimal
+> n1.tofixed(2).replace('.',','): 154,10
+
+# toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) - Converte para monetario
+> n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}): R$ 1.154,10

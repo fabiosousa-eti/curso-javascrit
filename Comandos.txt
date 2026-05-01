@@ -1,7 +1,9 @@
-# Comandos javaScript
+###########################
+### Comandos javaScript ###
+###########################
 
 ## window - representa uma janela que contém um elemento DOM.
-## typeof - Mostra o tipo de comando.
+
 
 ## alert - Exibe uma caixa de diálogo com uma mensagem.
 > window.alert('Minha primara mensagem')
@@ -15,9 +17,10 @@
 ## function - define blocos de código reutilizáveis que realizam tarefas específicas, permitindo estruturar, organizar e evitar a repetição de código
 > funcion(){bloco de codigo}
 
-## Tipos de Variaveis
+########################
+## Tipos de Variaveis ##
 > var - declara variáveis com escopo de função ou global, permitindo redeclaração e atualização
-> let
+> let - é uma palavra-chave utilizada para declarar variáveis com escopo de bloco, permitindo reatribuição de valores e garantindo maior segurança ao código
 
 > number - Converte o valor para número. Retorna NaN (Not-a-Number) se a conversão falhar.
 > infinity - é uma propriedade global que representa o infinito matemático, um valor numérico maior que qualquer outro número
@@ -29,7 +32,8 @@
 > object - é um construtor global usado para criar objetos ou manipular objetos existentes
 > array - são listas ordenadas de objetos, permitindo armazenar múltiplos valores (inclusive tipos diferentes) em uma única variável, indexados a partir de zero.
 
-## Tipo de conversão Numero
+##############################
+## Tipo de conversão Numero ##
 # Number(N) - Converter string para Numero (Inteiro e Flutuante)
 > Number(window.prompt('Número: '))
 
@@ -39,16 +43,19 @@
 # Number.parseFloat(N) - Força conversão string para Numero Flutuante
 > Number.parseFloat(window.prompt('Número: '))
 
-## Tipo de conversão String
+##############################
+## Tipo de conversão String ##
 # toString(N)
 > window.alert(toString(ns))
 
-## Formatando String
+#######################
+## Formatando String ##
 # s.length -  quantos caracteres a string tem
 # s.toUpperCase - Tudo para MAIÚSCULAS
 # s.toLowerCase - Tudo para minúsculas
 
-## Formatando Numeros
+########################
+## Formatando Numeros ##
 # toFixed(2) - colocar casas decimais
 > n1.tofixed(2): 154.10
 
@@ -57,3 +64,75 @@
 
 # toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) - Converte para monetario
 > n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}): R$ 1.154,10
+
+#########################
+## Tipos de Operadores ##
+# typeof -  um operador unário que retorna uma string indicando o tipo de dado de um operando (variável ou valor).
+# aritméticos - realizam cálculos matemáticos básicos entre números (literais ou variáveis), incluindo:
+    adição (+), 
+    subtração (-), 
+    multiplicação (*), 
+    divisão (/), 
+    resto/módulo (%), 
+    exponenciação (**),  
+    incremento (++) 
+    decremento (--).
+# atribuição - atribuem valores a variáveis, com a direita operando sobre a esquerda.
+    Simples (=)
+    com Adição (+=)
+    com Subtração (-=)
+    com Divisão (/=)
+    com Módulo (%=)
+    com Multiplicação (*=)
+    com Exponenciação (**=)
+# relacionais - fundamentais para tomadas de decisão em estruturas condicionais (if/else).
+    (Maior que) >, 
+    (Menor que) < , 
+    (Menor ou igual) <=, 
+    (Maior ou igual) =>, 
+    (Igual a) ==
+    (Diferente) !=
+    (Estritamente diferente) !==
+    (Identico a) ===
+# lógicos - comparam dois valores e retornam um valor booleano:
+    (lógico NOT) ! - Ele inverte o valor booleano de uma expressão: transforma true em false e false em true. Além
+    (lógico AND) && - Ele retorna true se pelo menos um dos operandos for verdadeiro, e false apenas se ambos forem falsos. 
+    (lógico OU)  || - retorna verdadeiro se pelo menos um dos operandos for verdadeiro.
+# ternários - é uma forma concisa de escrever estruturas if...else em uma única linha
+    ? : - teste ? true : false
+
+#######################
+## Introdução ao DOM ##
+Arvore do DOM
+window  
+    location
+    history
+    document
+        html
+            head
+                meta
+                title
+            body
+                h1
+                p[0]
+                p[1]
+                  strong
+                div
+
+Seleconando DOM
+    por Marca - getElementsByTagName()
+    por Id - getElementById()
+    por nome - getElementsByName()
+    por classe - getElementByClassName()
+    por Seletor - querySelector() | querySelectorAll()
+
+Eventos DOM
+    mouseenter
+    mousemove
+    mousedown
+    mouseup
+    click
+    mouseout
+
+Funções
+    funciton acao(parametros){bloco}
